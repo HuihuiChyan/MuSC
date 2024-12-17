@@ -1,0 +1,552 @@
+[
+    {
+        "id": "domain_oriented_task_94",
+        "input": "Literature provides us with a window into the human experience, allowing us to explore and understand the world around us. It can be used to inspire, inform, and entertain, and its power to move us is undeniable.",
+        "category": "Social Sciences: Language",
+        "instruction": "Translate the following text into three languages, one of which should be Chinese. Separate each translation with a dotted line. Begin each translation with a bullet point and the targeted langauge in parentheses.",
+        "decomposed_questions": [
+            "Does the generated text include translations in three different languages?",
+            "Do the generated translations in the three languages accurately reflect the original text in the given input?",
+            "Is one of the generated translations in the Chinese language?",
+            "Is each translation separated by a dotted line in the generated text?",
+            "Does each translation in the generated text start with a bullet point?",
+            "Does each translation start with the respective target language indicated in parentheses right after the bullet point?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Number",
+                "Linguistic"
+            ],
+            [
+                "Linguistic"
+            ],
+            [
+                "Linguistic"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Format"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_238",
+        "input": "Mother's Birthday: 7 days\nProject Deadline: 16 days\nWedding: 26 days\nNew Year: 156 days",
+        "category": "Office and Work: Calendar Management",
+        "instruction": "Today is May 1, 2023. The following is a countdown calendar, what will the countdown calendar look like on May 14, 2023? Ensure to clearly denote the events or days that have already passed.",
+        "decomposed_questions": [
+            "Is the generated text accurately representing a countdown calendar?",
+            "Does the generated text reflect the modifications from the original countdown calendar, considering the same events but advancing the date?",
+            "Given the original countdown calendar was set on May 1, 2023, is the generated countdown calendar correctly updated to represent May 14, 2023?",
+            "Does the modified countdown calendar clearly denote the events or days that have already passed since May 1, 2023, in its structure?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Format"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Number"
+            ],
+            [
+                "Format"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_245",
+        "input": "\"The new product will be released next month, with a starting price point lower than competitors. Initial distribution will focus on local stores.\"",
+        "category": "Business and Economics: Marketing",
+        "instruction": "Given the following text about a product launch, please provide annotations or comments on any unclear or ambiguous parts and limit each annotation or comment to 15 words.",
+        "decomposed_questions": [
+            "Does the generated text include some annotations or comments?",
+            "Are the generated annotations or comments about the product launch text in the given input?",
+            "Are the generated annotations or comments specifically about the ambiguous parts of the product launch text?",
+            "Is each generated annotation or comment confined to a maximum of 15 words?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Format"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content",
+                "Linguistic"
+            ],
+            [
+                "Number"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_44",
+        "input": "123\n456\n789",
+        "category": "Natural Sciences: Cryptography",
+        "instruction": "Generate a unique 9-digit lockscreen pattern using the following grid. Start from the number '1' and end with '5'. Each pattern move should be to a neighboring number, either up, down, left, or right. Connect the sequential numbers using '->'. Every number from 1 to 9 should appear exactly once in the pattern. The pattern should respect the rule that only adjacent numbers can be connected.",
+        "decomposed_questions": [
+            "Does the generated text represent a unique 9-digit lock screen pattern (a sequence of numbers using digits from 1-9)?",
+            "Does the generated lock screen pattern begin with the number '1' and conclude with the number '5'?",
+            "In the generated lock screen pattern, does each sequential movement transit to a neighboring number (up, down, left, or right), as dictated by the grid in the given input?",
+            "Are the sequential numbers in the generated pattern connected using '->'?",
+            "Does every single digit from 1 to 9 appear exactly once in the generated lock screen pattern?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Format",
+                "Content"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Number"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_180",
+        "input": " |0|1\n0|?|?\n1|?|?",
+        "category": "Engineering and Technology: Computer Science",
+        "instruction": "Please fill out the following table (where \"|\" separates the columns, and \"?\" represents the missing values) with the results of these boolean operations:\na) AND\nb) OR\nc) XOR (Exclusive-OR)\nProvide three separate filled tables, one for each boolean operation.",
+        "decomposed_questions": [
+            "Does the generated text include three separate tables?",
+            "Do the generated tables fill the table in the given input, where \"|\" separates the columns, and \"?\" denotes the missing values, while keeping the non-missing parts intact?",
+            "Have the generated tables been accurately filled out with the results of the respective Boolean operations: AND, OR, XOR (Exclusive-OR)?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Format",
+                "Number"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Number",
+                "Format"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_28",
+        "input": "_______________________________\n|                         |                                     |\n|   Bedroom       |                                     |\n|____________ |   Living Room              |\n|                         |                                     |\n|    Bathroom     |                                     |\n________________________________",
+        "category": "Arts: Architecture",
+        "instruction": "Based on the following floor plan example, please create a floor plan for a 2-bedroom, 2-bathroom apartment with a living room and a kitchen. Use \"_\" and \"|\" to represent walls, and include text labels to indicate the purpose of each room. Ensure that the outer walls enclose all text and interior walls.",
+        "decomposed_questions": [
+            "Based on the floor plan example in the given input, is the generated text a floor plan?",
+            "In the generated floor plan, are the symbols \"_\" and \"|\" utilized to represent walls?",
+            "Does the generated floor plan incorporate text labels that denote the function of each room?",
+            "In the generated floor plan, are all text labels and interior walls fully enclosed by outer walls?",
+            "Does the generated text representation depict a floor plan for a 2-bedroom, 2-bathroom apartment with a living room and a kitchen?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Format"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Content",
+                "Number"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_239",
+        "input": "| Fruit | Quantity | Price per Unit |\n|-------|----------|-------------|\n| Apple | 10 | 0.5 |\n| Banana | 15 | 0.3 |\n| Cherry | 20 | 0.6 |\n| Blueberry | 25 | 0.8 |",
+        "category": "Office and Work: Document Formatting",
+        "instruction": "Translate the following table into LaTeX format, making sure to include the necessary commands and packages for a correct compilation.",
+        "decomposed_questions": [
+            "Is the generated text a table in LaTeX format?",
+            "Does the generated LaTeX format table accurately represent the table as described in the input?",
+            "Does the generated output include all the necessary commands and packages for correct compilation in LaTeX?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Format"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_130",
+        "input": "Sarah is a recent college graduate who just started her first job at a marketing agency. She's been working hard on a big project for weeks, but her boss keeps criticizing her work and making her feel like she's not good enough. Sarah is starting to feel really discouraged and overwhelmed. ",
+        "category": "Lifestyle and Leisure: Personal Development",
+        "instruction": "Provide three pieces of advice for the given scenario. Each piece of advice should begin with a well-known clich\u00e9 or common saying, and these sayings should be enclosed within quotation marks.",
+        "decomposed_questions": [
+            "Does the generated text include exactly three pieces of advice?",
+            "Do the three pieces of advice in the generated text specifically pertain to the scenario in the given input?",
+            "Does each piece of advice commence with a well-known clich\u00e9 or common saying?",
+            "Are all these clich\u00e9s or common sayings enclosed within quotation marks in each piece of advice?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Number",
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content",
+                "Format"
+            ],
+            [
+                "Format"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_174",
+        "input": "-5,-3,-6, 2, 2,-1, 0, 0\n0,-2,-4, 1, 1, 0, 0, 0\n-3, 1, 5, 4,-1,-1, 0, 0\n-3, 1, 2,-1, 0, 0, 0, 0\n-1, 0, 0, 0, 0, 0, 0, 0\n0, 0, 0, 0, 0, 0, 0, 0",
+        "category": "Engineering and Technology: Electrical Engineering",
+        "instruction": "Arranging image components in a \"zigzag\" order is one step of JPEG encoding. Generate the zigzag sequence for the given matrix of image components, following the rules:\n1. Start at the top-left corner and move right.\n2. Move down-left diagonally.\n3. If you reach the left or bottom edge, move down or right, respectively.\n4. Move up-right diagonally.\n5. If you reach the top or right edge, move right or down, respectively.\n6. Repeat steps 2-5 until you reach the bottom-right corner of the matrix.",
+        "decomposed_questions": [
+            "Is the generated text a sequence of numbers?",
+            "Does the generated number sequence contain the exact same amount of numbers as the image components in the given input?",
+            "Does the generated number sequence represent a rearrangement of the image components in the given input, meaning it includes the same numbers but transforms the 2D image components into a 1D sequence?",
+            "Does the generated number sequence start with the number located at the top-left corner of the input image components?",
+            "Does the generated number sequence end with the number located at the bottom-right corner of the input image components?",
+            "Are the components of the 2D image from the given input correctly arranged into the generated sequence of numbers following the zigzag rules: - Start at the top-left corner and move right. - Move down-left diagonally. - If reaching the left or bottom edge, move down or right, respectively. - Move up-right diagonally. - If reaching the top or right edge, move right or down, respectively. - Repeat these steps until reaching the bottom-right corner of the matrix?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Format"
+            ],
+            [
+                "Number"
+            ],
+            [
+                "Number",
+                "Format"
+            ],
+            [
+                "Format",
+                "Number"
+            ],
+            [
+                "Format",
+                "Number"
+            ],
+            [
+                "Format",
+                "Number"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_194",
+        "input": "Peer Review Template:\nWhat is this paper about and what contributions does it make?\nReasons to accept:\nReasons to reject:\nQuestions for the Author(s):\nSoundness (score 1-5):\nExcitement (score 1-5):\nReviewer Confidence (score 1-5):\nRecommendation for Best Paper Award (Yes/No):\nReproducibility (score 1-5):\nEthical Concerns (Yes/No):",
+        "category": "Engineering and Technology: Artificial Intelligence",
+        "instruction": "Use the provided peer review template to write a peer review for a hypothetical research paper on the topic of machine learning. Fill out the template thoroughly. After completing the review, generate a reply from the hypothetical author of the paper. This reply should respond to the points raised in the peer review and discuss how the author might address or resolve the identified issues.",
+        "decomposed_questions": [
+            "Does the generated text include a peer review for a research paper?",
+            "Is the peer review presented in the generated text for a hypothetical research paper specifically on the topic of machine learning?",
+            "Has the peer review template in the given input been thoroughly used and filled out in the peer review included in the generated text?",
+            "Does the generated text also contain a reply from the hypothetical author of the research paper?",
+            "In the generated text, does the reply from the hypothetical author address the points raised in the peer review and propose solutions to resolve the identified issues?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Format",
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Format",
+                "Content"
+            ],
+            [
+                "Content"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_109",
+        "input": "Former National Football League player, actor, and broadcaster O.J. Simpson was tried for two accounts of murder in 1994. Simpson was accused of murdering his ex-wife Nicole Brown Simpson and a restaurant waiter, Ron Goldman.\n\nSimpson was represented by a high-profile defense team, that many referred to as the Dream Team. It included famous names like Robert Shapiro, Johnnie Cochran, and Robert Kardashian.\n\nCochran was able to convince the jury that there was reasonable doubt about the DNA evidence, and he alleged misconduct by the Los Angeles Police Department.\n\nThe trial lasted 11 months, and Simpson was found not guilty. Since then, it is often referred to as \u201cthe trial of the century\u201d and there have been television series, movies, and documentaries made about the trial.\n\nHowever, the families of the deceased filed a civil lawsuit against Simpson. The jury unanimously found him guilty for both deaths, and awarded the families $33.5 million for compensatory and punitive damages.\n\nMany feel the justice system prevailed 13 years later when Simpson was convicted and sentenced on robbery and weapons charges.",
+        "category": "Social Sciences: Law and Criminology",
+        "instruction": "Please process the provided article related to the criminal case involving O.J. Simpson. From this article, identify and extract the following specific pieces of information: the accused, the victims, the members of the defense team, the allegations, the duration of the trial, the verdict, the civil lawsuit, the damages awarded, and any subsequent conviction. If any of these elements cannot be found in the article, list them as 'Missing'. Please present each entity with its corresponding extracted value in a new line, using the format: 'Entity Name: Extracted Value'.",
+        "decomposed_questions": [
+            "Is the information \"the accused\" accurately extracted from the given article related to the criminal case involving O.J. Simpson? (If not found, list as 'Missing'.)",
+            "Is the information \"the victims\" accurately extracted from the given article related to the criminal case involving O.J. Simpson? (If not found, list as 'Missing'.)",
+            "Is the information \"the members of the defense team\" accurately extracted from the given article related to the criminal case involving O.J. Simpson? (If not found, list as 'Missing'.)",
+            "Is the information \"the allegations\" accurately extracted from the given article related to the criminal case involving O.J. Simpson? (If not found, list as 'Missing'.)",
+            "Is the information \"the duration of the trial\" accurately extracted from the given article related to the criminal case involving O.J. Simpson? (If not found, list as 'Missing'.)",
+            "Is the information \"the verdict\" accurately extracted from the given article related to the criminal case involving O.J. Simpson? (If not found, list as 'Missing'.)",
+            "Is the information \"the civil lawsuit\" accurately extracted from the given article related to the criminal case involving O.J. Simpson? (If not found, list as 'Missing'.)",
+            "Is the information \"the damages awarded\" accurately extracted from the given article related to the criminal case involving O.J. Simpson? (If not found, list as 'Missing'.)",
+            "Is the information \"the subsequent conviction\" accurately extracted from the given article related to the criminal case involving O.J. Simpson? (If not found, list as 'Missing'.)",
+            "Is each entity with its corresponding extracted value presented in a new line?",
+            "Is each entity with its corresponding extracted value displayed in the format: 'Entity Name: Extracted Value'?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Format"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_179",
+        "input": "Hex digit | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | A | B | C | D | E | F\nDecimal value | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15\nBinary value | 0000 | 0001 | 0010 | 0011 | 0100 | 0101 | 0110 | 0111 | 1000 | 1001 | 1010 | 1011 | 1100 | 1101 | 1110 | 1111",
+        "category": "Engineering and Technology: Computer Science",
+        "instruction": "Given the table of hex digit, decimal value, and binary value, perform the following number conversions:\nA. hexadecimal 0x25B9D2 to binary\nB. binary 1010111001001001 to hexadecimal\nC. hexadecimal 0xA8B3D to decimal value\nD. binary 1100100010110110010110 to decimal value\nE. decimal value 983445 to hexadecimal\nF. decimal value 1789 to binary value",
+        "decomposed_questions": [
+            "Does the generated text correctly convert the hexadecimal number 0x25B9D2 into binary according to the table in the given input?",
+            "Does the generated text correctly convert the binary number 1010111001001001 into hexadecimal according to the table in the given input?",
+            "Does the generated text correctly convert the hexadecimal number 0xA8B3D into a decimal value according to the table in the given input?",
+            "Does the generated text correctly convert the binary number 1100100010110110010110 into a decimal value according to the table in the given input?",
+            "Does the generated text correctly convert the decimal number 983445 into hexadecimal according to the table in the given input?",
+            "Does the generated text correctly convert the decimal number 1789 into binary according to the table in the given input?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Number",
+                "Format"
+            ],
+            [
+                "Number",
+                "Format"
+            ],
+            [
+                "Number",
+                "Format"
+            ],
+            [
+                "Number",
+                "Format"
+            ],
+            [
+                "Number",
+                "Format"
+            ],
+            [
+                "Number",
+                "Format"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_175",
+        "input": "Symbol|Probability\nA|0.3\nB|0.3\nC|0.2\nD|0.1\nE|0.1",
+        "category": "Engineering and Technology: Electrical Engineering",
+        "instruction": "Huffman coding is a method of encoding data by using variable-length binary strings to represent symbols based on their frequency of occurrence. This means that frequently appearing symbols are represented by shorter binary strings, while symbols that appear less frequently are represented by longer binary strings. \n\nGiven a probability table of symbols, you are expected to: generate the Huffman codes for each symbol according to the provided probability table and explain step-by-step how you derived the Huffman codes with details. Ensure that your explanation aligns with your code results and make sure that your coding results are correct for the given symbol probabilities, adhering to Huffman coding rules.",
+        "decomposed_questions": [
+            "Does the generated text include codes for each symbol in the given input?",
+            "Does the generated text provide a step-by-step explanation of how the Huffman codes for each symbol were derived from the probability table in the given input?",
+            "Does the explanation in the generated text aligns accurately with the derived Huffman codes?",
+            "In the generated text, are the Huffman codes correctly generated for the given symbols and probabilities, adhering to the rules of Huffman coding?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Format",
+                "Content"
+            ],
+            [
+                "Content",
+                "Format"
+            ],
+            [
+                "Content",
+                "Number"
+            ],
+            [
+                "Content",
+                "Number"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_25",
+        "input": "A K W A K\n# # # # #\n# # # # #\n# # # # #\nW A K A W",
+        "category": "Lifestyle and Leisure: Game",
+        "instruction": "In the Board Game Strategy Challenge, you are playing a simplified version of a strategy board game against an opponent. The game consists of a 5x5 grid, and you have three types of units: Knights (K), Archers (A), and Wizards (W). Each type of unit has specific movement and attack patterns. Your objective is to eliminate all of your opponent's units. Given the initial grid state in the input, your units are on the bottom row (W A K A W), and your opponent's units are on the top row (A K W A K). Your goal is to design specific movement and attack patterns for each type of unit, and then, based on the current grid state and rules you designed, describe your next move and show the grid after your move.",
+        "decomposed_questions": [
+            "Does the generated text provide a specific design for the movement and attack patterns for each type of unit?",
+            "Does the generated text describe the next move?",
+            "Is the next move based on the current grid state and the rules designed in the generated text?",
+            "Does the generated text illustrate an updated grid?",
+            "Is the updated grid correct after implementing the described move according to the current grid state and the rules designed?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Content",
+                "Format"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Format",
+                "Content"
+            ],
+            [
+                "Content",
+                "Format"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_158",
+        "input": "S # # # # # # #\n. . . . . . . #\n# . # # # # # #\n# . # . . . # #\n# . # . # . . #\n# . # . # # # #\n# . . . . . . F\n# # # # # # # #",
+        "category": "Lifestyle and Leisure: Riddle and Puzzle",
+        "instruction": "For the following grid where \"S\" denotes the starting point, \"F\" represents the finish line, \"#\" signifies walls or barriers, and \".\" indicates open paths, your task is to find the unique path from the start to the finish. Please provide step-by-step directions in the format \"Move right/down/left/up\" followed by the number of steps. Note that you can only move horizontally or vertically, and you cannot pass through walls or move diagonally. ",
+        "decomposed_questions": [
+            "Does the generated text provide directions in a sequential, step-by-step manner?",
+            "Are the generated directions in the specific format of \"Move right/down/left/up\" followed by the number of steps?",
+            "Do the generated directions ensure movement only in a horizontal or vertical direction, excluding any diagonal moves and navigating around walls or barriers denoted by \"#\" (according to the grid in the given input and starting from \"S\")?",
+            "Does the generated direction accurately guide from the initial starting point \"S\" to the final \"F\" point, according to the grid in the given input?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Format",
+                "Content"
+            ],
+            [
+                "Format"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_221",
+        "input": "| Year | Product A | Product B | Product C | Product D | Product E | Total Sales | Growth Rate |\n|------|-----------|-----------|-----------|-----------|-----------|-------------|-------------|\n| 2018 | 10,000    | 8,000     | 5,000     | 4,000     | 3,000     | 30,000      | -           |\n| 2019 | 12,000    | 9,500     | 6,000     | 5,500     | 3,500     | 36,500      | 21.67%      |\n| 2020 | 15,000    | 11,000    | 7,000     | 6,000     | 4,500     | 43,500      | 19.18%      |\n| 2021 | 17,500    | 13,500    | 8,500     | 7,500     | 5,000     | 52,000      | 19.54%      |\n| 2022 | 20,000    | 15,500    | 10,000    | 9,000     | 6,000     | 60,500      | 16.35%      |",
+        "category": "Business and Economics: Information Systems",
+        "instruction": "Generate a title and a description for the following table. The description should include an explanation of the table as a whole and each column individually.",
+        "decomposed_questions": [
+            "Is the generated text formatted as a table title and a table description?",
+            "Does the generated table title and description accurately reflect the contents of the table in the given input?",
+            "Does the generated description encompass an explanation of the table in the given input as a whole?",
+            "Does the generated description encompass an explanation of each column in the given table individually?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Format"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ],
+            [
+                "Content"
+            ]
+        ]
+    },
+    {
+        "id": "domain_oriented_task_192",
+        "input": "#include <stdio.h>\n\nunsigned long long factorial_recursive(int n) {\n    if (n == 0) {\n        return 1;\n    } else {\n        return n * factorial_recursive(n - 1);\n    }\n}\n\nunsigned long long factorial_iterative(int n) {\n    unsigned long long result = 1;\n    for (int i = 1; i <= n; i++) {\n        result *= i;\n    }\n    return result;\n}\n\nint main() {\n    int number;\n    unsigned long long recursive_result, iterative_result;\n\n    printf(\"Enter a positive integer: \");\n    scanf(\"%d\", &number);\n\n    if (number < 0) {\n        printf(\"Invalid input. Please enter a positive integer.\\n\");\n        return 1;\n    }\n\n    recursive_result = factorial_recursive(number);\n    iterative_result = factorial_iterative(number);\n\n    printf(\"Factorial (Recursive): %llu\\n\", recursive_result);\n    printf(\"Factorial (Iterative): %llu\\n\", iterative_result);\n\n    return 0;\n}",
+        "category": "Engineering and Technology: Software Engineering",
+        "instruction": "Analyze the following code snippet and provide an explanation of the code. Generate the output when the input is: \na) 4; \nb) 5; \nc) 9.  \nEnsure the output is accurate, formatted correctly, and adheres to any constraints mentioned in the code. ",
+        "decomposed_questions": [
+            "Does the generated text provide an explanation of the code snippet in the given input?",
+            "Does the generated text provide an accurate and correctly formatted output, adhering to any constraints mentioned in the code, when the input is 4?",
+            "Does the generated text provide an accurate and correctly formatted output, adhering to any constraints mentioned in the code, when the input is 5?",
+            "Does the generated text provide an accurate and correctly formatted output, adhering to any constraints mentioned in the code, when the input is 9?"
+        ],
+        "subset": "Hard_set",
+        "question_label": [
+            [
+                "Content"
+            ],
+            [
+                "Format",
+                "Number"
+            ],
+            [
+                "Format",
+                "Number"
+            ],
+            [
+                "Format",
+                "Number"
+            ]
+        ]
+    }
+]
