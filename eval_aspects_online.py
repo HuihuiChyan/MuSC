@@ -25,7 +25,7 @@ parser.add_argument(
 parser.add_argument(
     "--api-key",
     type=str,
-    default="eded83d2c3850ecdbde889fad22bdf9a",
+    default="your-key-here",
 )
 parser.add_argument(
     "--process-num",
