@@ -19,7 +19,7 @@ parser.add_argument(
 parser.add_argument(
     "--checkpoint",
     type=str,
-    default="/data/oss_bucket_0/huanghui/Meta-Llama-3-8B-Instruct",
+    default="/path/to/Meta-Llama-3-8B-Instruct",
 )
 parser.add_argument(
     "--demo-file",
